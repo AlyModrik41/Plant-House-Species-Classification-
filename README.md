@@ -41,12 +41,10 @@ The model achieved validation and test accuracy significantly higher than random
 To evaluate the performance of our plant species classifier, we trained two versions of the model:
 
 1. **From Scratch:** A CNN trained with random weights.
-   
-   <img width="583" height="455" alt="download" src="https://github.com/user-attachments/assets/2de2bc63-3749-46ee-b30c-693125402774" />
-3. **Fine-Tuned Transfer Learning):** A pre-trained backbone with custom dense layers for plant classification.
-   
-   <img width="596" height="455" alt="download" src="https://github.com/user-attachments/assets/2b564592-0800-4674-a985-2c72cd0e09bc" />
 
+   <img width="605" height="455" alt="download" src="https://github.com/user-attachments/assets/87caeb78-e190-42c2-b700-2ab30e98bce7" />
+
+2. **Fine-Tuned Transfer Learning):** A pre-trained backbone with custom dense layers for plant classification.
 
 ### 🔹 Best Epoch Comparison
 The best epoch for each model was selected based on the **lowest validation loss**.
